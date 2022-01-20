@@ -20,8 +20,6 @@ const itemsSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, "Name is required"],
-    minlength:2,
-    maxlength:15
 },
 });
 
